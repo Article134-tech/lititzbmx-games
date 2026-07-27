@@ -31,7 +31,7 @@ Players build a coalition, evaluate land, choose a surface, plan accessibility a
 - **Format:** Nine-stage planning game
 - **Estimated time:** 10–15 minutes
 - **Outcome:** Personalized community proposal
-- **Release:** v1.1.0
+- **Release:** v1.1.1
 
 [Start the project](https://article134-tech.github.io/lititzbmx-games/brandon/)
 
@@ -74,12 +74,12 @@ Each experience may include its own:
 - Validation report
 - Manifest and checksums
 
-The approved Brandon Hetrick v1.1.0 release is preserved inside [`/brandon/`](brandon/) with its supporting documentation and source record.
+The approved Brandon Hetrick v1.1.1 release is preserved inside [`/brandon/`](brandon/) with its supporting documentation and source record.
 
 ## Project Status
 
-- **Lititz BMX Games collection hub:** v1.0.1
-- **Help Brandon Hetrick Build a Pump Track in Warwick Township:** v1.1.0
+- **Lititz BMX Games collection hub:** v1.0.2
+- **Help Brandon Hetrick Build a Pump Track in Warwick Township:** v1.1.1
 - **Repository:** `Article134-tech/lititzbmx-games`
 - **GitHub Pages:** Live
 - **Custom domain:** Reserved for a later controlled deployment
