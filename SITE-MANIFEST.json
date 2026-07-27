@@ -1,0 +1,17 @@
+{
+  "collection": "Lititz BMX Games",
+  "version": "1.0.0",
+  "repository": "Article134-tech/lititzbmx-games",
+  "default_pages_url": "https://article134-tech.github.io/lititzbmx-games/",
+  "custom_domain_candidate": "games.lititzbmx.com",
+  "custom_domain_configured": false,
+  "experiences": [
+    {
+      "slug": "brandon",
+      "title": "Help Brandon Hetrick Build a Pump Track in Warwick Township",
+      "version": "1.1.0",
+      "path": "brandon/",
+      "status": "approved"
+    }
+  ]
+}

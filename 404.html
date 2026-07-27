@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Game Not Found | Lititz BMX Games</title>
+  <style>
+    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#071018;color:#f4f7f8;font-family:Arial,sans-serif}
+    main{width:min(680px,calc(100% - 2rem));text-align:center}
+    p{color:#a9bac4;line-height:1.6}
+    a{display:inline-block;margin-top:1rem;padding:.9rem 1.15rem;background:#32d6d1;color:#041214;text-decoration:none;font-weight:900;border-radius:8px}
+  </style>
+</head>
+<body>
+  <main>
+    <p>Lititz BMX Games</p>
+    <h1>This game path does not exist.</h1>
+    <p>Return to the collection and choose an available experience.</p>
+    <a id="home-link" href="./">Return to Lititz BMX Games</a>
+  </main>
+  <script>
+    const root = location.hostname.endsWith("github.io") ? "/lititzbmx-games/" : "/";
+    document.getElementById("home-link").href = root;
+  </script>
+</body>
+</html>

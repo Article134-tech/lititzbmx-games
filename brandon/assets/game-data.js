@@ -1,0 +1,611 @@
+window.BUILD_WARWICK = {
+  "title": "Help Brandon Hetrick Build a Pump Track in Warwick Township",
+  "version": "1.1.0",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "title": "Pump Track Chat #2 — Coleman Bike Park and Hope for Warwick Township",
+      "url": "https://sitemap.lititzbmx.com/record-collection/collections/pump-track-chat/records/ptc-brandon-hetrick-coleman-warwick-update/",
+      "note": "Primary dossier for the Coleman Bike Park and Warwick Township discussion."
+    },
+    {
+      "id": "SRC-002",
+      "title": "Pump Track Builds with Brandon Hetrick",
+      "url": "https://sitemap.lititzbmx.com/record-collection/collections/pump-track-chat/records/ptc-brandon-hetrick-pump-track-builds/",
+      "note": "Primary dossier for Brandon Hetrick’s pump-track building discussion."
+    },
+    {
+      "id": "SRC-003",
+      "title": "Warwick Township Follow-Up",
+      "url": "https://sitemap.lititzbmx.com/record-collection/collections/pump-track-chat/records/ptc-warwick-follow-up/",
+      "note": "Warwick Township follow-up record."
+    },
+    {
+      "id": "SRC-004",
+      "title": "Warwick Township Public-Comment Rehearsal / Reconstruction",
+      "url": "https://sitemap.lititzbmx.com/record-collection/collections/pump-track-chat/records/ptc-warwick-public-comment-rehearsal/",
+      "note": "Public-comment preparation and reconstruction record."
+    },
+    {
+      "id": "SRC-005",
+      "title": "Pump Track Chat Returns with Brandon Hetrick",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/sMhoaIE3TKY/",
+      "note": "Long-form Lititz BMX YouTube archive record."
+    },
+    {
+      "id": "SRC-006",
+      "title": "Warwick Township Council Meeting Update",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/DYTztC1phC8/",
+      "note": "Long-form Warwick Township meeting-update archive record."
+    },
+    {
+      "id": "SRC-007",
+      "title": "Pump Track Chat — Builds with Brandon Hetrick",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/6W4qgR5tTQw/",
+      "note": "Original Brandon Hetrick build discussion archive record."
+    },
+    {
+      "id": "SRC-008",
+      "title": "All Wheels and ADA",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/ehcTN1844o0/",
+      "note": "Brandon Hetrick short about all-wheel access and ADA."
+    },
+    {
+      "id": "SRC-009",
+      "title": "ADA Cost Consideration",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/tYKIlnapxJc/",
+      "note": "Brandon Hetrick short discussing ADA design cost."
+    },
+    {
+      "id": "SRC-010",
+      "title": "Pump Tracks Bring Business",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/cw8S6BJ0ulY/",
+      "note": "Brandon Hetrick short about community business impact."
+    },
+    {
+      "id": "SRC-011",
+      "title": "Pump Tracks Serve Many Groups",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/eY7UPVY9eQs/",
+      "note": "Brandon Hetrick short about beauty and broad community use."
+    },
+    {
+      "id": "SRC-012",
+      "title": "Travel to Ride Pump Tracks",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/1D3oxMbNwPM/",
+      "note": "Brandon Hetrick short about pump-track travel."
+    },
+    {
+      "id": "SRC-013",
+      "title": "Brandon Gets Excited About Warwick / Lititz",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/pQLJVDjJsZU/",
+      "note": "Brandon Hetrick short about the Warwick/Lititz concept."
+    },
+    {
+      "id": "SRC-014",
+      "title": "Keep Building",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/YxQVr0BaGEo/",
+      "note": "Brandon Hetrick short about always building."
+    },
+    {
+      "id": "SRC-015",
+      "title": "Green Mountain Cyclery and BMX Tracks",
+      "url": "https://sitemap.lititzbmx.com/youtube-archive/records/IXlU0B3XmzE/",
+      "note": "Brandon Hetrick short about Green Mountain Cyclery’s track support."
+    }
+  ],
+  "phases": [
+    {
+      "id": "coalition",
+      "stage": "Stage 1 of 9",
+      "title": "Build the Coalition",
+      "scenario": "The idea has energy, but a public facility needs trusted people around the table. Choose the first move.",
+      "fieldNote": "Coleman Bike Park and the Warwick discussions emphasize relationships among park boards, municipalities, builders, riders, families, and community supporters.",
+      "guide": "Start with people. A track is easier to draw than a coalition is to build—and the coalition is what keeps the project alive.",
+      "sources": [
+        "SRC-001",
+        "SRC-005",
+        "SRC-014"
+      ],
+      "choices": [
+        {
+          "label": "Show up with a coalition",
+          "detail": "Coordinate riders, families, an experienced builder, and municipal conversations from the beginning.",
+          "d": {
+            "support": 12,
+            "confidence": 15,
+            "access": 2,
+            "sustainability": 4,
+            "resources": -5,
+            "momentum": 10
+          },
+          "tag": "relationship-first",
+          "result": "Recognizable supporters and practical experience give decision-makers a reason to keep listening."
+        },
+        {
+          "label": "Launch a public campaign first",
+          "detail": "Build visible enthusiasm before formal technical planning.",
+          "d": {
+            "support": 16,
+            "confidence": -4,
+            "access": 1,
+            "sustainability": 0,
+            "resources": -3,
+            "momentum": 9
+          },
+          "tag": "public-first",
+          "result": "Public enthusiasm grows quickly, but the project still needs technical and municipal grounding."
+        },
+        {
+          "label": "Recruit a builder quietly",
+          "detail": "Develop a credible preliminary concept before broad outreach.",
+          "d": {
+            "support": 3,
+            "confidence": 11,
+            "access": 1,
+            "sustainability": 6,
+            "resources": -8,
+            "momentum": 5
+          },
+          "tag": "builder-first",
+          "result": "The concept becomes more realistic, though fewer residents understand why it matters."
+        }
+      ]
+    },
+    {
+      "id": "site",
+      "stage": "Stage 2 of 9",
+      "title": "Screen the Site",
+      "scenario": "A promising parcel appears. Decide what the team must establish before treating it as the future home of the track.",
+      "fieldNote": "Public pump-track planning involves land availability, drainage, utilities, circulation, neighboring uses, parking, and future maintenance—not only the visible riding area.",
+      "guide": "The empty-looking field is never truly empty. Water, utilities, access, neighbors, and future maintenance are already part of the site.",
+      "sources": [
+        "SRC-001",
+        "SRC-002",
+        "SRC-003"
+      ],
+      "choices": [
+        {
+          "label": "Run a full feasibility screen",
+          "detail": "Study drainage, utilities, access, parking, neighbors, ownership, and expansion potential together.",
+          "d": {
+            "support": 3,
+            "confidence": 15,
+            "access": 10,
+            "sustainability": 12,
+            "resources": -12,
+            "momentum": -2
+          },
+          "tag": "full site screen",
+          "result": "The project slows briefly but gains a defensible site story and fewer hidden surprises."
+        },
+        {
+          "label": "Prioritize visibility and rail-trail access",
+          "detail": "Focus first on a visible, connected location that people can reach easily.",
+          "d": {
+            "support": 10,
+            "confidence": 5,
+            "access": 14,
+            "sustainability": 1,
+            "resources": -5,
+            "momentum": 8
+          },
+          "tag": "access-first site",
+          "result": "The public value is easy to see, but utilities and drainage still need deeper review."
+        },
+        {
+          "label": "Choose the easiest available land",
+          "detail": "Move quickly on the parcel that appears easiest to obtain.",
+          "d": {
+            "support": 4,
+            "confidence": -8,
+            "access": -4,
+            "sustainability": -8,
+            "resources": 7,
+            "momentum": 12
+          },
+          "tag": "availability-first site",
+          "result": "Momentum jumps, but unresolved site conditions become a major project risk."
+        }
+      ]
+    },
+    {
+      "id": "footprint",
+      "stage": "Stage 3 of 9",
+      "title": "Choose the Footprint",
+      "scenario": "The township asks the question that changes the conversation: “How much land do you need?” Choose a planning footprint.",
+      "fieldNote": "The Warwick meeting update documented possibilities from roughly 9,000 square feet to more than 43,000 square feet. These are game planning scenarios, not engineering recommendations.",
+      "guide": "Bigger is not automatically better. Match the footprint to the coalition, site, maintenance plan, and realistic first phase.",
+      "sources": [
+        "SRC-003",
+        "SRC-006"
+      ],
+      "choices": [
+        {
+          "label": "9,000 sq ft grassroots pilot",
+          "detail": "A compact first phase that can prove demand and build experience.",
+          "d": {
+            "support": 5,
+            "confidence": 7,
+            "access": -4,
+            "sustainability": 3,
+            "resources": 10,
+            "momentum": 10
+          },
+          "tag": "9,000 sq ft pilot",
+          "result": "The smaller footprint feels achievable, but limits simultaneous uses and future design options."
+        },
+        {
+          "label": "24,000 sq ft balanced community track",
+          "detail": "A medium footprint with room for broad use, circulation, and phasing.",
+          "d": {
+            "support": 10,
+            "confidence": 10,
+            "access": 10,
+            "sustainability": 8,
+            "resources": -12,
+            "momentum": 8
+          },
+          "tag": "24,000 sq ft balanced",
+          "result": "The project gains space to serve more users without immediately pursuing the largest build."
+        },
+        {
+          "label": "43,000+ sq ft regional destination",
+          "detail": "Plan for major growth, events, and long-term regional draw.",
+          "d": {
+            "support": 8,
+            "confidence": 1,
+            "access": 14,
+            "sustainability": 5,
+            "resources": -25,
+            "momentum": -2
+          },
+          "tag": "43,000+ sq ft destination",
+          "result": "The vision is exciting, but land, funding, and maintenance demands rise sharply."
+        }
+      ]
+    },
+    {
+      "id": "surface",
+      "stage": "Stage 4 of 9",
+      "title": "Select the Build Strategy",
+      "scenario": "Choose how the first public version of the Warwick Township track will be built.",
+      "fieldNote": "Pump Track Chat compares dirt, asphalt, concrete, municipal support, private support, and phased development.",
+      "guide": "The surface changes who can ride, how weather affects the track, what maintenance looks like, and how much funding the first phase needs.",
+      "sources": [
+        "SRC-002",
+        "SRC-005",
+        "SRC-007"
+      ],
+      "choices": [
+        {
+          "label": "Grassroots dirt build",
+          "detail": "Use volunteer energy and a lower-resource approach with regular maintenance.",
+          "d": {
+            "support": 9,
+            "confidence": 3,
+            "access": -3,
+            "sustainability": -12,
+            "resources": 14,
+            "momentum": 11
+          },
+          "tag": "grassroots dirt",
+          "result": "Progress can become visible quickly, but weather and continuing maintenance become central risks."
+        },
+        {
+          "label": "Phased asphalt plan",
+          "detail": "Open a practical first phase while preserving a path for later expansion.",
+          "d": {
+            "support": 9,
+            "confidence": 12,
+            "access": 10,
+            "sustainability": 14,
+            "resources": -16,
+            "momentum": 8
+          },
+          "tag": "phased asphalt",
+          "result": "The project balances durability and ambition while keeping the full vision expandable."
+        },
+        {
+          "label": "Full paved destination build",
+          "detail": "Pursue the complete durable facility in one major construction phase.",
+          "d": {
+            "support": 6,
+            "confidence": 7,
+            "access": 14,
+            "sustainability": 16,
+            "resources": -30,
+            "momentum": -4
+          },
+          "tag": "full paved destination",
+          "result": "Durability and broad use improve, but the funding and approval burden grows immediately."
+        }
+      ]
+    },
+    {
+      "id": "users",
+      "stage": "Stage 5 of 9",
+      "title": "Design for the People Who Will Use It",
+      "scenario": "The riding surface must serve a real public. Choose the design priority.",
+      "fieldNote": "Brandon discusses bicycles, scooters, skateboards, families, beginners, and adaptive riders, including the distinction between access to the park and meaningful access to the riding experience.",
+      "guide": "“Everyone can enter the park” is not the same as “everyone can meaningfully use the facility.” Design access into the experience.",
+      "sources": [
+        "SRC-008",
+        "SRC-009",
+        "SRC-011"
+      ],
+      "choices": [
+        {
+          "label": "All wheels + adaptive access",
+          "detail": "Plan circulation, transitions, rest areas, and riding opportunities for broad use.",
+          "d": {
+            "support": 14,
+            "confidence": 13,
+            "access": 22,
+            "sustainability": 5,
+            "resources": -16,
+            "momentum": 4
+          },
+          "tag": "all wheels and adaptive riders",
+          "result": "The concept serves the broadest public and gains credibility, with added design and funding needs."
+        },
+        {
+          "label": "Competition-first layout",
+          "detail": "Prioritize speed, progression, and advanced riding features.",
+          "d": {
+            "support": 2,
+            "confidence": 3,
+            "access": -14,
+            "sustainability": 5,
+            "resources": -5,
+            "momentum": 8
+          },
+          "tag": "competition-first",
+          "result": "Experienced riders gain a strong facility, but the public-use case narrows."
+        },
+        {
+          "label": "Beginner and family loop",
+          "detail": "Prioritize low-pressure entry, visibility, and family use.",
+          "d": {
+            "support": 15,
+            "confidence": 8,
+            "access": 13,
+            "sustainability": 4,
+            "resources": -8,
+            "momentum": 8
+          },
+          "tag": "beginner and family loop",
+          "result": "The project becomes welcoming and understandable, though advanced progression is limited at first."
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "stage": "Stage 6 of 9",
+      "title": "Write the Maintenance Story",
+      "scenario": "Before the public presentation, someone asks who will care for the track five years after opening.",
+      "fieldNote": "Construction is only the beginning. Surface choice, drainage, inspections, landscaping, repairs, staffing, volunteer capacity, and operating responsibility shape long-term success.",
+      "guide": "A project without a maintenance owner is a future closure story. Name the work, the schedule, and the responsible partners now.",
+      "sources": [
+        "SRC-001",
+        "SRC-002",
+        "SRC-007"
+      ],
+      "choices": [
+        {
+          "label": "Shared municipal + partner plan",
+          "detail": "Define inspections, budget responsibility, volunteer roles, and professional repair needs.",
+          "d": {
+            "support": 6,
+            "confidence": 15,
+            "access": 3,
+            "sustainability": 18,
+            "resources": -11,
+            "momentum": 2
+          },
+          "tag": "shared maintenance plan",
+          "result": "The proposal becomes more believable because long-term work has named owners."
+        },
+        {
+          "label": "Volunteer stewardship model",
+          "detail": "Build a rider-led maintenance group around recurring work days.",
+          "d": {
+            "support": 12,
+            "confidence": 2,
+            "access": 1,
+            "sustainability": 4,
+            "resources": 8,
+            "momentum": 8
+          },
+          "tag": "volunteer stewardship",
+          "result": "Community ownership grows, but volunteer availability remains a long-term vulnerability."
+        },
+        {
+          "label": "Address maintenance after approval",
+          "detail": "Keep the proposal focused on getting the track built first.",
+          "d": {
+            "support": 1,
+            "confidence": -14,
+            "access": 0,
+            "sustainability": -20,
+            "resources": 6,
+            "momentum": 9
+          },
+          "tag": "maintenance deferred",
+          "result": "The pitch moves faster, but decision-makers see an unresolved operating risk."
+        }
+      ]
+    },
+    {
+      "id": "setback",
+      "stage": "Stage 7 of 9",
+      "title": "The Rain Test",
+      "scenario": "Heavy rain exposes ponding near the proposed low section. Choose the response.",
+      "fieldNote": "This is a fictional setback designed to teach why drainage and access review belong inside pump-track planning.",
+      "guide": "A setback is information. The question is whether the team uses it to improve the plan or hides it to protect the schedule.",
+      "sources": [
+        "SRC-001",
+        "SRC-002"
+      ],
+      "choices": [
+        {
+          "label": "Pause for drainage and access review",
+          "detail": "Recheck grading, runoff, paths, and the relationship between drainage and accessible circulation.",
+          "d": {
+            "support": 3,
+            "confidence": 16,
+            "access": 8,
+            "sustainability": 15,
+            "resources": -13,
+            "momentum": -8
+          },
+          "tag": "full drainage review",
+          "result": "The schedule slips, but the project gains technical trust and a safer long-term plan."
+        },
+        {
+          "label": "Redesign the lowest section",
+          "detail": "Make a targeted correction while preserving the overall concept.",
+          "d": {
+            "support": 4,
+            "confidence": 9,
+            "access": 3,
+            "sustainability": 9,
+            "resources": -7,
+            "momentum": 1
+          },
+          "tag": "targeted drainage redesign",
+          "result": "The team responds without restarting everything, though broader site questions remain."
+        },
+        {
+          "label": "Keep the schedule",
+          "detail": "Treat the storm as unusual and continue toward the meeting.",
+          "d": {
+            "support": -3,
+            "confidence": -16,
+            "access": -5,
+            "sustainability": -18,
+            "resources": 4,
+            "momentum": 10
+          },
+          "tag": "schedule over review",
+          "result": "The presentation stays on time, but the unresolved problem weakens public trust."
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "stage": "Stage 8 of 9",
+      "title": "Bring the Community Into the Process",
+      "scenario": "The design is taking shape. Decide how residents, riders, families, and neighbors will experience it before the next formal step.",
+      "fieldNote": "The documented Warwick effort frames the project as a community and family asset, not simply a set of dirt jumps.",
+      "guide": "People support what they understand and help shape. Make room for questions, demonstrations, concerns, and new users—not only applause.",
+      "sources": [
+        "SRC-001",
+        "SRC-006",
+        "SRC-010",
+        "SRC-012"
+      ],
+      "choices": [
+        {
+          "label": "Ride, roll, and listening day",
+          "detail": "Combine a demonstration, accessible explanation, neighbor listening, and feedback stations.",
+          "d": {
+            "support": 18,
+            "confidence": 10,
+            "access": 8,
+            "sustainability": 3,
+            "resources": -10,
+            "momentum": 10
+          },
+          "tag": "public listening and demonstration",
+          "result": "The public can see the idea, test assumptions, and contribute before the proposal hardens."
+        },
+        {
+          "label": "Formal presentation only",
+          "detail": "Use one polished meeting to control the message and limit cost.",
+          "d": {
+            "support": 3,
+            "confidence": 7,
+            "access": 0,
+            "sustainability": 1,
+            "resources": 4,
+            "momentum": 6
+          },
+          "tag": "formal presentation",
+          "result": "The project appears organized, but fewer people develop ownership in it."
+        },
+        {
+          "label": "Small stakeholder meetings",
+          "detail": "Meet separately with neighbors, families, cycling groups, and potential partners.",
+          "d": {
+            "support": 12,
+            "confidence": 13,
+            "access": 5,
+            "sustainability": 5,
+            "resources": -6,
+            "momentum": 2
+          },
+          "tag": "stakeholder meetings",
+          "result": "Trust grows through focused conversations, though public visibility develops more slowly."
+        }
+      ]
+    },
+    {
+      "id": "pitch",
+      "stage": "Stage 9 of 9",
+      "title": "Make the Final Pitch",
+      "scenario": "The next meeting is approaching. Choose the core promise the proposal will make.",
+      "fieldNote": "The real project remains subject to Warwick Township, professional review, community stakeholders, funding, and formal decisions. The game cannot approve it.",
+      "guide": "Do not promise a fantasy. Explain who benefits, what the first phase requires, how risks will be managed, and why the project is worth continuing.",
+      "sources": [
+        "SRC-001",
+        "SRC-003",
+        "SRC-006",
+        "SRC-013"
+      ],
+      "choices": [
+        {
+          "label": "Phased community-asset plan",
+          "detail": "Present a durable first phase, broad access, transparent risks, and a path to expansion.",
+          "d": {
+            "support": 12,
+            "confidence": 16,
+            "access": 8,
+            "sustainability": 12,
+            "resources": -8,
+            "momentum": 10
+          },
+          "tag": "phased community asset",
+          "result": "The pitch connects ambition to a realistic next step and a clear public-use case."
+        },
+        {
+          "label": "Regional destination and events",
+          "detail": "Lead with tourism, major events, and long-term regional identity.",
+          "d": {
+            "support": 7,
+            "confidence": 3,
+            "access": 5,
+            "sustainability": 2,
+            "resources": -15,
+            "momentum": 8
+          },
+          "tag": "regional destination pitch",
+          "result": "The vision is memorable, but decision-makers still need a grounded first-phase plan."
+        },
+        {
+          "label": "Fastest low-cost opening",
+          "detail": "Lead with speed, volunteer energy, and the smallest immediate ask.",
+          "d": {
+            "support": 8,
+            "confidence": -5,
+            "access": -4,
+            "sustainability": -8,
+            "resources": 12,
+            "momentum": 14
+          },
+          "tag": "fast low-cost opening",
+          "result": "The proposal feels attainable, but durability, access, and long-term care remain weak."
+        }
+      ]
+    }
+  ]
+};

@@ -1,0 +1,169 @@
+I need you to deploy a completed and validated static-site collection to GitHub Pages.
+
+PROJECT
+
+Owner:
+Article134-tech
+
+New repository name:
+lititzbmx-games
+
+Repository visibility:
+Public
+
+Repository description:
+Interactive BMX history, education, preservation, and community-advocacy games from Lititz BMX.
+
+Expected default GitHub Pages URL:
+https://article134-tech.github.io/lititzbmx-games/
+
+First published game URL:
+https://article134-tech.github.io/lititzbmx-games/brandon/
+
+I am uploading:
+Lititz-BMX-Games-v1.0.0.zip
+
+ARCHITECTURE
+
+This is one umbrella repository for many future Lititz BMX games.
+
+The repository root is the Lititz BMX Games collection homepage.
+
+The approved Brandon Hetrick game is inside:
+brandon/
+
+Future games will be added later as sibling directories such as:
+escape-rooms/
+future-game/
+
+IMPORTANT RESTRICTIONS
+
+Do not redesign, rewrite, or regenerate any files.
+Do not modify the approved Brandon game.
+Do not change the supplied Warwick Township Pump Track logo.
+Do not change the illustrated Brandon guide.
+Do not alter the exact title:
+Help Brandon Hetrick Build a Pump Track in Warwick Township
+
+Do not merge this project into Article134-tech/lititzbmx-docs.
+Do not modify sitemap.lititzbmx.com, robots.txt, existing sitemaps, or any other repository.
+Do not configure a custom domain during the first deployment.
+Do not add a CNAME file.
+
+WORKFLOW
+
+Give me the complete sequence, but stop at each operation that requires me to act.
+Say exactly: “Kyle, it is your turn” whenever I need to click, upload, copy, commit, push, configure, test, or provide a screenshot.
+
+1. Create a new PUBLIC repository owned by Article134-tech named:
+lititzbmx-games
+
+Do not initialize it with a README, .gitignore, or license.
+
+2. Clone the empty repository through GitHub Desktop.
+
+3. Confirm:
+Repository: Article134-tech/lititzbmx-games
+Branch: main
+
+4. Extract Lititz-BMX-Games-v1.0.0.zip.
+
+5. Open the inner folder named:
+Lititz-BMX-Games-v1.0.0
+
+6. Copy the CONTENTS of that inner folder into the cloned repository root.
+
+Do not copy the outer wrapper folder itself.
+
+Correct structure:
+index.html
+404.html
+.nojekyll
+assets/
+brandon/
+README.md
+DEPLOYMENT-INSTRUCTIONS.md
+DEPLOYMENT-HANDOFF-PROMPT.txt
+RELEASE-NOTES.md
+RIGHTS-AND-DISCLAIMER.md
+SHA256SUMS.txt
+SITE-MANIFEST.json
+VALIDATION-REPORT.md
+
+The approved Brandon game must be located at:
+brandon/index.html
+
+7. Review GitHub Desktop before committing.
+
+GitHub Desktop should show exactly 28 new files.
+
+Confirm:
+- index.html is at repository root.
+- assets/ is at repository root.
+- brandon/index.html exists.
+- brandon/assets/ contains the approved game assets.
+- no outer Lititz-BMX-Games-v1.0.0 wrapper folder was copied.
+- no unrelated repository or files changed.
+
+Stop and ask me for a screenshot before authorizing the commit.
+
+8. After scope verification, use this commit summary:
+
+Publish Lititz BMX Games hub and Brandon v1.1.0
+
+Use this description:
+
+Establish the Lititz BMX Games collection hub and publish Help Brandon Hetrick Build a Pump Track in Warwick Township v1.1.0 at /brandon/.
+
+9. Push origin to main.
+
+10. Enable GitHub Pages:
+
+Repository Settings
+Pages
+Build and deployment
+Source: Deploy from a branch
+Branch: main
+Folder: /(root)
+Save
+
+11. Watch the Pages build/deployment.
+
+Do not assume success because the files were pushed.
+Wait for a green completed deployment.
+
+12. Verify:
+
+Hub:
+https://article134-tech.github.io/lititzbmx-games/
+
+Brandon:
+https://article134-tech.github.io/lititzbmx-games/brandon/
+
+PUBLIC VALIDATION
+
+Hub:
+- “Lititz BMX Games” displays.
+- The Brandon game card displays.
+- The campaign logo displays.
+- The illustrated Brandon guide displays.
+- “Start the project” opens /brandon/.
+- Mobile/narrow layout works.
+- No missing assets or console errors appear.
+
+Brandon:
+- Exact game title displays.
+- Campaign logo and illustrated Brandon display.
+- Opening disclaimer displays.
+- All nine planning stages work.
+- Source links open.
+- Keep Showing Up badge can be earned.
+- Final proposal and Print / Save as PDF work.
+- Restart/replay works.
+- No missing assets, 404s, or JavaScript errors appear.
+
+CUSTOM DOMAIN
+
+Do not configure games.lititzbmx.com yet.
+
+First complete and approve the default GitHub Pages deployment. After that, custom-domain work will be a separate, controlled step.
