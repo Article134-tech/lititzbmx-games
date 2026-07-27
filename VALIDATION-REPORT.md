@@ -1,38 +1,21 @@
-# Lititz BMX Games v1.0.0 Validation Report
+# Validation Report — Lititz BMX Games v1.0.1
 
-**Result:** PASS — package and static-code validation
+## Scope
 
-## Architecture
+Post-deployment branding and public-documentation patch for the Lititz BMX Games collection hub.
 
-- PASS — Repository-root collection homepage exists.
-- PASS — Root `index.html` links to `brandon/` using a relative path.
-- PASS — Root collection assets exist.
-- PASS — `.nojekyll` is included.
-- PASS — Brandon game is nested at `brandon/index.html`.
-- PASS — No custom-domain `CNAME` file is included.
-- PASS — Package contains exactly 28 files.
+## Verified
 
-## Approved Brandon Release Preservation
+- The approved Lititz BMX white-tire / white-lettering PNG was copied byte-for-byte into the shared `assets/` directory.
+- The collection header references the new logo through a relative path.
+- The temporary generated “LB” badge was removed from the collection homepage.
+- Desktop and mobile header sizing rules are present.
+- The root README now documents the Lititz BMX mission, collection purpose, featured Brandon game, public architecture, project status, rights, and credit.
+- `SITE-MANIFEST.json` parses successfully.
+- All local file references used by `index.html` exist.
+- All Brandon Hetrick v1.1.0 files remain unchanged from the approved embedded release.
+- SHA-256 checksums were regenerated for the complete package, excluding `SHA256SUMS.txt` itself.
 
-- PASS — All 15 Brandon v1.1.0 release files were copied.
-- PASS — The nested release passes all 13 hashes recorded in its original `SHA256SUMS.txt`.
-- PASS — The approved logo, illustrated guide, game code, sources, and disclaimer were not modified.
+## Deployment impact
 
-## Static Validation
-
-- PASS — All local `src` and `href` references in both public entry pages resolve.
-- PASS — `SITE-MANIFEST.json` parses.
-- PASS — `brandon/GAME-MANIFEST.json` parses.
-- PASS — Root JavaScript passes `node --check`.
-- PASS — Brandon JavaScript and game-data files pass `node --check`.
-- PASS — ZIP paths are relative and contain no parent-directory traversal.
-
-## Expected Initial URLs
-
-- `https://article134-tech.github.io/lititzbmx-games/`
-- `https://article134-tech.github.io/lititzbmx-games/brandon/`
-
-## Deployment Validation Still Required
-
-The default GitHub Pages build and both public URLs must be tested after deployment.
-No claim of a live deployment is made by this report.
+This patch changes only shared collection branding and root-level documentation. It does not modify the Brandon game, its source record, its visual assets, or its public URL.

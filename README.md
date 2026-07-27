@@ -5,7 +5,7 @@
 [Play Lititz BMX Games](https://article134-tech.github.io/lititzbmx-games/) · [Explore the Lititz BMX Archive](https://www.lititzbmx.com)
 
 <p align="center">
-  <img src="brandon/assets/warwick-township-pump-track-logo.jpg" alt="Warwick Township Pump Track campaign logo" width="650">
+  <img src="assets/lititz-bmx-logo-white.png" alt="Lititz BMX" width="230">
 </p>
 
 ## About the Collection
@@ -19,6 +19,10 @@ Each game is designed as its own preserved project with a stable public address,
 ## Now Playing
 
 ### Help Brandon Hetrick Build a Pump Track in Warwick Township
+
+<p align="center">
+  <img src="brandon/assets/warwick-township-pump-track-logo.jpg" alt="Warwick Township Pump Track campaign logo" width="650">
+</p>
 
 Work through a nine-stage community-planning experience inspired by the real effort to bring a multi-sport pump track to Warwick Township, Pennsylvania.
 
@@ -48,7 +52,7 @@ The goal is not to turn history into trivia. It is to help people understand how
 ```text
 lititzbmx-games/
 ├── index.html          Collection homepage
-├── assets/             Shared collection assets
+├── assets/             Shared collection assets and Lititz BMX branding
 ├── brandon/            Warwick Township pump-track game
 └── future-game/        Future sibling experiences
 ```
@@ -74,9 +78,10 @@ The approved Brandon Hetrick v1.1.0 release is preserved inside [`/brandon/`](br
 
 ## Project Status
 
-- **Lititz BMX Games collection hub:** v1.0.0
+- **Lititz BMX Games collection hub:** v1.0.1
 - **Help Brandon Hetrick Build a Pump Track in Warwick Township:** v1.1.0
 - **Repository:** `Article134-tech/lititzbmx-games`
+- **GitHub Pages:** Live
 - **Custom domain:** Reserved for a later controlled deployment
 
 ## About Lititz BMX

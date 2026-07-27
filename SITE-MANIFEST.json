@@ -1,6 +1,6 @@
 {
   "collection": "Lititz BMX Games",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "Article134-tech/lititzbmx-games",
   "default_pages_url": "https://article134-tech.github.io/lititzbmx-games/",
   "custom_domain_candidate": "games.lititzbmx.com",
@@ -13,5 +13,7 @@
       "path": "brandon/",
       "status": "approved"
     }
-  ]
+  ],
+  "status": "live",
+  "branding_asset": "assets/lititz-bmx-logo-white.png"
 }

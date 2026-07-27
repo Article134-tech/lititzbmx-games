@@ -54,7 +54,7 @@ img { max-width: 100%; }
 .header-inner {
   width: min(1180px, calc(100% - 2rem));
   margin: 0 auto;
-  min-height: 72px;
+  min-height: 96px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,30 +64,25 @@ img { max-width: 100%; }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: .8rem;
+  gap: .9rem;
   text-decoration: none;
 }
 
-.brand-mark {
-  width: 42px;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  border: 2px solid var(--cyan);
-  border-radius: 50%;
-  color: var(--cyan-2);
-  font-weight: 900;
-  letter-spacing: -.08em;
-}
-
-.brand strong,
-.brand small {
+.brand-logo {
   display: block;
-  line-height: 1.05;
+  width: auto;
+  height: 76px;
 }
 
-.brand strong { font-size: 1rem; }
-.brand small { margin-top: .18rem; color: var(--cyan); text-transform: uppercase; letter-spacing: .18em; }
+.brand-section {
+  border-left: 1px solid var(--line);
+  padding-left: .9rem;
+  color: var(--cyan);
+  font-size: .82rem;
+  font-weight: 900;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
 
 .archive-link {
   color: var(--cyan-2);
@@ -407,7 +402,9 @@ footer p { margin: .3rem 0; }
 }
 
 @media (max-width: 560px) {
-  .header-inner { min-height: 64px; }
+  .header-inner { min-height: 78px; }
+  .brand-logo { height: 60px; }
+  .brand-section { padding-left: .65rem; font-size: .68rem; letter-spacing: .16em; }
   .archive-link { font-size: .82rem; }
   .hero { padding-top: 3.2rem; }
   .game-card { border-radius: 18px; }
