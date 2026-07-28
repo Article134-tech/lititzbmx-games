@@ -1,0 +1,68 @@
+{
+  "package": "Lititz BMX Digital Escape Rooms",
+  "version": "1.5.1",
+  "edition": "Visual Evidence Edition",
+  "rooms": [
+    {
+      "id": "radical-rick",
+      "slug": "radical-rick",
+      "title": "Radical Rick: The Missing Panel",
+      "tasks": 5,
+      "evidence_files": 5,
+      "canonical": "https://article134-tech.github.io/lititzbmx-games/escape-rooms/radical-rick/"
+    },
+    {
+      "id": "harry-leary",
+      "slug": "harrys-legacy-toolbox",
+      "title": "Harry’s Room: The Legacy Toolbox",
+      "tasks": 4,
+      "evidence_files": 4,
+      "canonical": "https://article134-tech.github.io/lititzbmx-games/escape-rooms/harrys-legacy-toolbox/"
+    },
+    {
+      "id": "jersey-wall",
+      "slug": "jersey-wall",
+      "title": "The Jersey Wall: You Are the Curator",
+      "tasks": 4,
+      "evidence_files": 4,
+      "canonical": "https://article134-tech.github.io/lititzbmx-games/escape-rooms/jersey-wall/"
+    },
+    {
+      "id": "musicians",
+      "slug": "backstage-bmx",
+      "title": "Backstage BMX: The Artists’ Missing BMX Connections",
+      "tasks": 4,
+      "evidence_files": 4,
+      "canonical": "https://article134-tech.github.io/lititzbmx-games/escape-rooms/backstage-bmx/"
+    },
+    {
+      "id": "sugar-cayne",
+      "slug": "sugar-cayne",
+      "title": "Sugar Cayne: The Bike of the Day Case File",
+      "tasks": 6,
+      "evidence_files": 6,
+      "canonical": "https://article134-tech.github.io/lititzbmx-games/escape-rooms/sugar-cayne/"
+    },
+    {
+      "id": "greg-mathias-air",
+      "slug": "greg-mathias-air",
+      "title": "The Greg Mathias Air Escape Room",
+      "tasks": 5,
+      "evidence_files": 5,
+      "canonical": "https://article134-tech.github.io/lititzbmx-games/escape-rooms/greg-mathias-air/"
+    }
+  ],
+  "task_total": 28,
+  "image_assets": 74,
+  "architecture": [
+    "data-driven rooms",
+    "clean static room paths",
+    "release-isolated local progress persistence",
+    "three-level hints",
+    "room-specific SEO metadata",
+    "authentic visual evidence",
+    "equal-height action-aligned collection cards",
+    "readable profile evidence cards",
+    "reduced-motion support"
+  ]
+}
