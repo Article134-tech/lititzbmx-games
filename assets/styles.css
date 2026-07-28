@@ -171,6 +171,11 @@ h1 {
   margin-bottom: .4rem;
 }
 
+.games-list {
+  display: grid;
+  gap: 1.75rem;
+}
+
 .game-card {
   display: grid;
   grid-template-columns: minmax(320px, .9fr) minmax(0, 1.1fr);
@@ -212,6 +217,91 @@ h1 {
   height: 260px;
   right: -80px;
   top: -90px;
+}
+
+
+.escape-visual {
+  padding: 1.2rem;
+  display: grid;
+  align-items: center;
+  background:
+    linear-gradient(rgba(7, 15, 21, .08), rgba(7, 15, 21, .72)),
+    radial-gradient(circle at 45% 35%, rgba(255, 213, 74, .22), transparent 38%),
+    linear-gradient(135deg, #161923, #07131c);
+}
+
+.escape-collage {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .55rem;
+  transform: rotate(-1deg);
+}
+
+.escape-collage img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid rgba(139, 242, 237, .3);
+  border-radius: 10px;
+  background: #0a1118;
+  box-shadow: 0 14px 26px rgba(0, 0, 0, .3);
+}
+
+.escape-badge {
+  position: absolute;
+  z-index: 3;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: .7rem;
+  max-width: 190px;
+  padding: .8rem 1rem;
+  border: 1px solid rgba(255, 213, 74, .58);
+  border-radius: 14px;
+  background: rgba(7, 16, 24, .92);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, .42);
+}
+
+.escape-badge strong {
+  color: var(--yellow);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.escape-badge span {
+  color: var(--text);
+  font-size: .78rem;
+  font-weight: 800;
+  line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.escape-card {
+  border-color: #364050;
+  background: linear-gradient(145deg, rgba(19, 24, 34, .98), rgba(8, 18, 26, .98));
+}
+
+.escape-card .tags span {
+  border-color: #60552d;
+  color: #ffe58b;
+  background: rgba(255, 213, 74, .06);
+}
+
+.escape-button {
+  background: var(--yellow);
+  color: #16130a;
+  box-shadow: 0 12px 28px rgba(255, 213, 74, .15);
+}
+
+.escape-button:hover,
+.escape-button:focus-visible {
+  background: #ffe680;
 }
 
 .campaign-logo {
@@ -399,6 +489,7 @@ footer p { margin: .3rem 0; }
   .game-card { grid-template-columns: 1fr; }
   .game-visual { min-height: 470px; }
   .game-meta { grid-template-columns: 1fr; }
+  .escape-collage { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 @media (max-width: 560px) {
@@ -411,5 +502,8 @@ footer p { margin: .3rem 0; }
   .campaign-logo { left: 1.2rem; top: 1.2rem; width: 80%; }
   .guide { height: 68%; }
   .game-content { padding: 1.4rem; }
+  .escape-visual { min-height: 390px; padding: .8rem; }
+  .escape-collage { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .escape-badge { right: 1rem; bottom: 1rem; }
   .future-grid { grid-template-columns: 1fr; }
 }

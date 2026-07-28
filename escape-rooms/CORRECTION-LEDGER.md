@@ -1,4 +1,4 @@
-# Correction Ledger — v1.5.1
+# Correction Ledger — v1.5.2
 
 ## Preserved approvals
 
@@ -17,3 +17,11 @@
 10. GM-05 remains paired with the authentic 1986 ABA Porsche Design Fallnationals #1 Pro Series Winner plaque photograph.
 11. No generated or artistically altered replacement imagery is included.
 12. v1.5.1 begins with a clean storage namespace and ignores v1.5.0 and earlier progress.
+
+## Launch-integration navigation
+
+13. The collection homepage provides a visible return to the Lititz BMX Games hub.
+14. Every room provides both **All rooms** and **Games hub** navigation.
+15. Final reveals and the 404 page provide explicit recovery paths.
+16. Navigation uses explicit `index.html` destinations for local Windows and GitHub Pages compatibility.
+17. v1.5.1 saved progress remains intact because the storage namespace is unchanged.

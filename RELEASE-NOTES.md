@@ -1,8 +1,21 @@
-# Release Notes — Lititz BMX Games v1.0.2
+# Release Notes — Lititz BMX Games v1.1.1
 
-- Updated **Help Brandon Hetrick Build a Pump Track in Warwick Township** to v1.1.1.
-- Added a visible **Restart this plan** control during every active game stage.
-- Added a visible **Return to introduction** control during every active game stage.
-- Added confirmation prompts before either action clears the current plan.
-- Preserved automatic progress saving, the existing nine-stage structure, source links, outcomes, branding, final proposal, and public URLs.
-- Updated the collection manifest, README, validation report, release documentation, and checksums.
+## Local-navigation correction
+
+- Corrected the two collection-card links to open explicit entry files:
+  - `escape-rooms/index.html`
+  - `brandon/index.html`
+- Prevents Microsoft Edge from displaying a local directory index when the hub is reviewed through a Windows `file:` address.
+- The explicit links remain valid after GitHub Pages deployment and preserve the existing public URLs.
+
+## Hub integration retained
+
+- Keeps **Lititz BMX Digital Escape Rooms v1.5.1** first on the public Games homepage.
+- Keeps the approved Brandon Hetrick v1.1.1 game as the second collection card.
+- Keeps the authentic six-room preview, approved Brandon visuals, seven-experience count, two-collection count, documentation updates, and responsive layout from v1.1.0.
+
+## Preservation boundary
+
+- No file inside `brandon/` was changed.
+- No file inside `escape-rooms/` was changed.
+- Existing public addresses remain stable.

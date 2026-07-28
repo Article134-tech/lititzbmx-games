@@ -1,10 +1,10 @@
-# Lititz BMX Digital Escape Rooms — v1.5.1
+# Lititz BMX Digital Escape Rooms — v1.5.2
 
-## Final Human-Review Patch
+## Launch-Integration Navigation Patch
 
 Six source-backed, playable digital museum experiences built from Lititz BMX artifacts, campaign records, publication captures, interviews, and collection documentation.
 
-This package preserves every approved v1.5.0 correction and applies the final Greg Mathias evidence-image swap identified during Kyle A. Huffman’s human review. It remains a **review build** until Kyle confirms GM-03 and GM-04 locally.
+v1.5.2 preserves the fully reviewed v1.5.1 experience and adds the missing navigation needed to integrate the collection into the Lititz BMX Games hub.
 
 ## Experiences
 
@@ -15,12 +15,19 @@ This package preserves every approved v1.5.0 correction and applies the final Gr
 - Sugar Cayne: The Bike of the Day Case File
 - The Greg Mathias Air Escape Room
 
-## Final patch
+## Navigation added
 
-- GM-03, **Six-month Daylight recovery**, now uses the black-and-white Daylight/ROC #1 interview frame containing the six-month quote.
-- GM-04, **Daylight team assignment**, now uses the Greg Mathias interview dossier that identifies the archived conversation source.
-- GM-05 remains the authentic 1986 ABA Porsche Design Fallnationals #1 Pro Series Winner plaque record.
-- Release-isolated v1.5.1 progress; no automatic import from v1.5.0 or earlier.
-- No supplied image was generated, altered, or replaced.
+- The collection homepage now includes **← Games hub** and **Archive ↗** controls.
+- Every room retains **← All rooms** and adds **Games hub**.
+- Every final reveal offers both **Return to the collection** and **Return to Lititz BMX Games**.
+- The 404 page provides explicit recovery links to both destinations.
+- All internal return links use explicit `index.html` targets so they work under both GitHub Pages and local Windows `file:` testing.
+- Footer navigation provides an additional non-blocking return path.
 
-Open `index.html` locally, enter **The Greg Mathias Air Escape Room**, and inspect Evidence Files GM-03 and GM-04.
+## Preserved behavior
+
+- All six approved rooms and all 28 Workbench tasks are unchanged.
+- All authentic images, evidence assignments, wording, and final reveals remain unchanged.
+- The v1.5.1 local-progress namespace is retained so this navigation patch does not erase current saved progress.
+
+Open `index.html` locally and test the Games hub, collection, room, final-reveal, and 404 return paths before deployment.

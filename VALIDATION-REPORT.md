@@ -1,28 +1,38 @@
-# Validation Report — Lititz BMX Games v1.0.2
+# Validation Report — Lititz BMX Games v1.1.1
 
 ## Scope
 
-Usability patch for the embedded Brandon Hetrick game, updating it from v1.1.0 to v1.1.1 without changing the collection or game URLs.
+Corrective collection-hub update that retains the approved v1.1.0 visual integration while fixing Windows local-file navigation before commit.
 
 ## Verified
 
-- The collection hub remains published from the repository root.
-- The Brandon game remains published at `brandon/`.
-- A **Restart this plan** control is present on every active game stage.
-- A **Return to introduction** control is present on every active game stage.
-- Both destructive controls require confirmation before clearing progress.
-- Restart returns the player to Stage 1 with the original metric values.
-- Return to introduction clears the current plan and renders the introduction screen.
-- Automatic progress saving and normal page-refresh recovery remain intact.
-- The nine-stage decision sequence, final proposal, source links, print support, campaign logo, and illustrated Brandon guide remain intact.
-- Automated browser interaction testing passed for restart, return to introduction, saved-stage recovery, confirmation cancellation, and a 390-pixel mobile viewport with no horizontal overflow.
-- `SITE-MANIFEST.json` and `brandon/GAME-MANIFEST.json` parse successfully.
-- JavaScript syntax checks pass for the collection and game scripts.
-- SHA-256 checksums were regenerated for the complete package, excluding each checksum file from its own list.
+- The hub links explicitly to `escape-rooms/index.html` and `brandon/index.html`.
+- Both target entry files exist in the established repository architecture.
+- Explicit `index.html` links work under the local Windows `file:` review path and remain valid under GitHub Pages.
+- The patch contains only the seven established root-hub replacement files: `index.html`, `assets/styles.css`, `README.md`, `RELEASE-NOTES.md`, `SITE-MANIFEST.json`, `VALIDATION-REPORT.md`, and `SHA256SUMS.txt`.
+- No file inside `brandon/` is included or modified.
+- No file inside `escape-rooms/` is included or modified.
+- The Escape Rooms card retains six authentic preview images already present in the approved v1.5.1 deployment.
+- The existing Brandon logo, illustrated guide, exact title, card copy, and metadata remain unchanged.
+- The collection status remains 7 playable experiences across 2 published collection entries.
+- `SITE-MANIFEST.json` parses successfully and records both approved releases and their explicit hub entry files.
+- Static HTML checks confirm one page title, one main landmark, unique IDs, two playable collection cards, and alt text on every informative image.
+- Static CSS parsing completed without syntax-level parse errors.
+- The complete repository checksum ledger contains 125 entries: all repository files except the root checksum file itself.
+- ZIP integrity testing passed, and the ZIP contains only the seven intended replacement files.
+
+## Manual review status
+
+- PASS — Hub hero and both collection cards rendered correctly in Kyle’s local repository.
+- FAIL FOUND / CORRECTED — v1.1.0 directory-style card links opened a local directory index in Microsoft Edge. v1.1.1 uses explicit entry files.
+- REQUIRED — Re-test both buttons locally after installing this correction, then commit only after both experiences open normally.
 
 ## Deployment impact
 
-This patch updates the existing files behind the same public addresses:
+This patch updates the existing collection homepage and repository documentation behind the same public addresses:
 
 - `https://article134-tech.github.io/lititzbmx-games/`
+- `https://article134-tech.github.io/lititzbmx-games/escape-rooms/`
 - `https://article134-tech.github.io/lititzbmx-games/brandon/`
+
+A public GitHub Pages confirmation is still required after the patch is committed and pushed.
