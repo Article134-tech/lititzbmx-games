@@ -27,9 +27,9 @@ Players move through a Mission, Evidence Room, Workbench, and room-specific Fina
 - **Format:** Six-room visual-evidence collection
 - **Estimated time:** 16–34 minutes per room
 - **Outcome:** Six restored archive stories
-- **Release:** v1.5.1
+- **Release:** v1.5.3 — locked launch release
 
-[Enter the evidence](https://article134-tech.github.io/lititzbmx-games/escape-rooms/)
+[Enter the evidence](https://article134-tech.github.io/lititzbmx-games/escape-rooms/) · [View the permanent v1.5.3 release](https://github.com/Article134-tech/lititzbmx-games/releases/tag/v1.5.3)
 
 ### Help Brandon Hetrick Build a Pump Track in Warwick Township
 
@@ -68,48 +68,3 @@ lititzbmx-games/
 ├── assets/             Shared collection assets and Lititz BMX branding
 ├── brandon/            Warwick Township pump-track planning game
 └── escape-rooms/       Six-room visual-evidence collection
-```
-
-Current public addresses:
-
-- **Collection hub:** https://article134-tech.github.io/lititzbmx-games/
-- **Digital Escape Rooms:** https://article134-tech.github.io/lititzbmx-games/escape-rooms/
-- **Brandon game:** https://article134-tech.github.io/lititzbmx-games/brandon/
-
-New games can be added as sibling directories so existing releases retain their URLs and remain independently documented.
-
-## Documentation and Source Transparency
-
-Each experience may include its own:
-
-- README and release notes
-- Source list or research record
-- Rights and disclaimer statement
-- Validation report
-- Manifest and checksums
-
-The approved Brandon Hetrick v1.1.1 release is preserved inside [`/brandon/`](brandon/) with its supporting documentation and source record.
-
-The approved Digital Escape Rooms v1.5.1 collection is preserved inside [`/escape-rooms/`](escape-rooms/) with its room manifest, evidence sources, image manifest, rights notice, release notes, and validation record.
-
-## Project Status
-
-- **Lititz BMX Games collection hub:** v1.1.1
-- **Lititz BMX Digital Escape Rooms:** v1.5.1
-- **Help Brandon Hetrick Build a Pump Track in Warwick Township:** v1.1.1
-- **Published experiences:** 7 across 2 collection entries
-- **Repository:** `Article134-tech/lititzbmx-games`
-- **GitHub Pages:** Live
-- **Custom domain:** Reserved for a later controlled deployment
-
-## About Lititz BMX
-
-Lititz BMX documents BMX artifacts, riders, manufacturers, teams, events, media, and community history through physical preservation, digital cataloging, original research, oral-history interviews, educational resources, and public media.
-
-The archive is founded and maintained by **Kyle A. Huffman**, a retired instructional designer, twice-deployed United States Navy veteran, lifelong BMX enthusiast, collector, researcher, interviewer, and media producer.
-
-[Visit Lititz BMX](https://www.lititzbmx.com)
-
-## Rights and Use
-
-Project-specific rights, attribution, educational-use, and disclaimer information is documented in [`RIGHTS-AND-DISCLAIMER.md`](RIGHTS-AND-DISCLAIMER.md) and within each individual game directory.
