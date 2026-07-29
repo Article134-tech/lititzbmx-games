@@ -31,6 +31,9 @@ Players move through a Mission, Evidence Room, Workbench, and room-specific Fina
 
 [Enter the evidence](https://article134-tech.github.io/lititzbmx-games/escape-rooms/) · [View the permanent v1.5.3 release](https://github.com/Article134-tech/lititzbmx-games/releases/tag/v1.5.3)
 
+- **Preserved version DOI:** [10.5281/zenodo.21688565](https://doi.org/10.5281/zenodo.21688565)
+- **All-versions DOI:** [10.5281/zenodo.21688564](https://doi.org/10.5281/zenodo.21688564)
+
 ### Help Brandon Hetrick Build a Pump Track in Warwick Township
 
 <p align="center">
@@ -68,3 +71,4 @@ lititzbmx-games/
 ├── assets/             Shared collection assets and Lititz BMX branding
 ├── brandon/            Warwick Township pump-track planning game
 └── escape-rooms/       Six-room visual-evidence collection
+```
