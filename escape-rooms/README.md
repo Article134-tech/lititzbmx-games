@@ -1,10 +1,10 @@
-# Lititz BMX Digital Escape Rooms — v1.5.2
+# Lititz BMX Digital Escape Rooms — v1.5.3
 
-## Launch-Integration Navigation Patch
+## Evidence Alignment Correction
 
 Six source-backed, playable digital museum experiences built from Lititz BMX artifacts, campaign records, publication captures, interviews, and collection documentation.
 
-v1.5.2 preserves the fully reviewed v1.5.1 experience and adds the missing navigation needed to integrate the collection into the Lititz BMX Games hub.
+v1.5.3 preserves the approved v1.5.2 navigation and gameplay while correcting one evidence-image mismatch identified during public review.
 
 ## Experiences
 
@@ -15,19 +15,27 @@ v1.5.2 preserves the fully reviewed v1.5.1 experience and adds the missing navig
 - Sugar Cayne: The Bike of the Day Case File
 - The Greg Mathias Air Escape Room
 
-## Navigation added
+## SC-02 correction
 
-- The collection homepage now includes **← Games hub** and **Archive ↗** controls.
-- Every room retains **← All rooms** and adds **Games hub**.
-- Every final reveal offers both **Return to the collection** and **Return to Lititz BMX Games**.
-- The 404 page provides explicit recovery links to both destinations.
-- All internal return links use explicit `index.html` targets so they work under both GitHub Pages and local Windows `file:` testing.
-- Footer navigation provides an additional non-blocking return path.
+Evidence File **SC-02 — Vin Rock, Naughty by Nature, and Sugar Cayne** now uses the authentic Lititz BMX Vin Rock profile as its primary visual. The profile visibly preserves:
+
+- Vin Rock’s Naughty by Nature identity
+- the Sugar Cayne custom-bike feature
+- the Sugar Cayne BMX-track training media connection
+
+The completed Lititz BMX Huffy publication capture remains with the evidence files where it actually supports the publication and full-circle build record.
+
+SC-02 also states what the record does not establish: it does not connect Vin Rock to ownership of, participation in, or construction of the Lititz BMX Huffy build.
+
+## Evidence audit
+
+All **28 evidence files** were reviewed for alignment among the evidence title, image, alt text, caption, summary, finding, and stated limitations. SC-02 was the only clear title-to-image mismatch found. The full matrix is preserved in `EVIDENCE-VISUAL-AUDIT.md`.
 
 ## Preserved behavior
 
-- All six approved rooms and all 28 Workbench tasks are unchanged.
-- All authentic images, evidence assignments, wording, and final reveals remain unchanged.
-- The v1.5.1 local-progress namespace is retained so this navigation patch does not erase current saved progress.
+- All six rooms and all 28 Workbench tasks are unchanged.
+- Navigation among the Games hub, collection, and individual rooms is unchanged.
+- The v1.5.1 local-progress namespace is retained so this corrective release does not erase saved progress.
+- No image was generated, altered, or substituted. The corrected visual was already preserved in the approved package as an authentic Lititz BMX archive record.
 
-Open `index.html` locally and test the Games hub, collection, room, final-reveal, and 404 return paths before deployment.
+Open `index.html` locally and review SC-02 before deployment.

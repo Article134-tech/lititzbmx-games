@@ -1,17 +1,28 @@
-# Deployment Instructions
+# Deployment Instructions — v1.5.3
 
-## Intended repository location
+## Review first
 
-Copy the **contents** of this package into the `escape-rooms/` directory of the local `lititzbmx-games` repository. Do not copy the outer versioned wrapper folder.
+Do not deploy before Kyle confirms the corrected SC-02 image, caption, and evidence limitation in the rendered Sugar Cayne Evidence Room.
 
-Expected public paths after deployment:
+## Deployment location
 
-- `/escape-rooms/`
-- `/escape-rooms/radical-rick/`
-- `/escape-rooms/harrys-legacy-toolbox/`
-- `/escape-rooms/jersey-wall/`
-- `/escape-rooms/backstage-bmx/`
-- `/escape-rooms/sugar-cayne/`
-- `/escape-rooms/greg-mathias-air/`
+Deploy the collection beneath the existing Games repository at:
 
-Do not deploy before Kyle confirms the corrected GM-03 and GM-04 image assignments in v1.5.1. After approval, verify all changed repository paths are limited to `escape-rooms/` plus the separately approved Games homepage link/update.
+```text
+lititzbmx-games/escape-rooms/
+```
+
+Do not change `brandon/`.
+
+## Recommended update path
+
+Use the companion patch package `Lititz-BMX-Escape-Rooms-v1.5.3-evidence-alignment-update.zip`. It contains one top-level `escape-rooms` folder. Merge that folder into the existing `lititzbmx-games` repository root and replace the destination files.
+
+## Post-push checks
+
+1. Games hub → Digital Escape Rooms
+2. Sugar Cayne → Evidence Room → SC-02
+3. Confirm Vin Rock profile visual and limitation
+4. Confirm SC-05 still uses the Huffy publication audit
+5. Room → All rooms → Games hub
+6. Brandon remains unchanged

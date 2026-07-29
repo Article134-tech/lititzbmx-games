@@ -1281,13 +1281,13 @@ window.ESCAPE_ROOMS = [
           "title": "Vin Rock, Naughty by Nature, and Sugar Cayne",
           "summary": "The profile connects Vin Rock of Naughty by Nature to Sugar Cayne media involving a custom BMX build and preparation for the BMX track.",
           "establishes": "Establishes the named artist, group, and media thread.",
-          "limits": null,
+          "limits": "Does not establish that Vin Rock built, owned, or participated in the Lititz BMX Huffy build; the profile documents a separate Sugar Cayne media connection.",
           "visual": {
-            "src": "assets/images/sugar-cayne/article-header-1280.jpg",
-            "src640": "assets/images/sugar-cayne/article-header-640.jpg",
-            "srcset": "assets/images/sugar-cayne/article-header-640.jpg 640w, assets/images/sugar-cayne/article-header-1280.jpg 1280w",
-            "alt": "Captured Sugar Cayne Bike of the Day article header and introduction.",
-            "caption": "Publication capture connecting the completed bike back to Sugar Cayne.",
+            "src": "assets/images/backstage-bmx/vin-rock-1280.jpg",
+            "src640": "assets/images/backstage-bmx/vin-rock-640.jpg",
+            "srcset": "assets/images/backstage-bmx/vin-rock-640.jpg 640w, assets/images/backstage-bmx/vin-rock-1280.jpg 1280w",
+            "alt": "Lititz BMX archive profile for Vin Rock showing his Naughty by Nature identity, a Sugar Cayne custom bike feature, and BMX-track training videos.",
+            "caption": "Vin Rock’s Lititz BMX profile showing the documented Naughty by Nature and Sugar Cayne BMX media connection.",
             "credit": "Lititz BMX archive source record"
           }
         },

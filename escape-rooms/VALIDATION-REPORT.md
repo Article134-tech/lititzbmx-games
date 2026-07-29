@@ -1,47 +1,47 @@
-# Validation Report — v1.5.2
+# Validation Report — v1.5.3
 
 ## Disposition
 
-**LAUNCH-INTEGRATION PATCH — static validation passed; final local and public navigation checks remain required.**
+**CORRECTIVE REVIEW BUILD — static validation and full evidence-to-visual audit passed; Kyle’s rendered SC-02 approval remains required before deployment.**
 
-v1.5.2 preserves the reviewed v1.5.1 collection and adds the missing return path to the Lititz BMX Games hub.
+v1.5.3 preserves the launched v1.5.2 collection and corrects the SC-02 evidence-image mismatch.
 
-## Exact patch scope
+## Exact correction scope
 
-- Collection header: explicit `../index.html` Games-hub link
-- Six room headers: explicit `../index.html` All-rooms links and `../../index.html` Games-hub links
-- Compatibility `room.html`: explicit collection and Games-hub links
-- Final reveal: explicit collection and Games-hub return links
-- `404.html`: explicit collection and Games-hub recovery links
-- Footer navigation and narrow-screen navigation styling
-- Documentation, manifest version, correction ledger, and checksum ledger
+- SC-02 primary image paths changed from the Huffy publication capture to the authentic Vin Rock profile
+- SC-02 alt text and caption updated
+- SC-02 evidence limitation added to prevent conflation with the Lititz BMX Huffy build
+- Image manifest updated to record intentional shared use of the Vin Rock profile
+- Evidence audit, documentation, version manifest, correction ledger, and checksum ledger updated
 
 ## Static validation — PASS
 
 - Rooms: **6**
 - Workbench tasks: **28**
 - Evidence files: **28**
-- Image assets: **74**
+- Physical image assets: **74**
+- Evidence title-to-visual records audited: **28**
+- Clear mismatches found: **1**
+- Clear mismatches corrected: **1**
+- Unresolved clear mismatches: **0**
 - JavaScript syntax: **PASS**
 - JSON syntax: **PASS**
-- All new local navigation targets resolve from their source files: **PASS**
-- No directory-only navigation targets remain in the patched navigation surfaces: **PASS**
-- Room and evidence content unchanged: **PASS**
-- Image bytes unchanged: **PASS**
+- Every referenced local visual exists: **PASS**
+- SC-02 uses `backstage-bmx/vin-rock-640.jpg` and `backstage-bmx/vin-rock-1280.jpg`: **PASS**
+- SC-02 no longer uses the Huffy article-header visual: **PASS**
+- Room/task counts unchanged: **PASS**
+- Navigation targets preserved: **PASS**
 - v1.5.1 progress namespace retained: **PASS**
 - Full package checksum verification: **PASS**
 
-## Required local launch check
+## Rendered review required
 
-1. Root Games hub → Digital Escape Rooms
-2. Collection → Games hub
-3. Collection → one room
-4. Room → All rooms
-5. Room → Games hub
-6. Final reveal → collection and Games hub
-7. 404 page → collection and Games hub
-8. Brandon hub button remains functional
+Kyle should open Sugar Cayne, enter the Evidence Room, and inspect SC-02 for:
 
-## Required public check after push
+1. correct Vin Rock profile visual
+2. readable Naughty by Nature and Sugar Cayne media context
+3. accurate caption
+4. clear distinction from the Lititz BMX Huffy build
+5. unchanged SC-01 and SC-03 through SC-06 evidence assignments
 
-Repeat the same navigation matrix on GitHub Pages after the deployment receives a green status.
+No deployment should occur until that focused review passes.

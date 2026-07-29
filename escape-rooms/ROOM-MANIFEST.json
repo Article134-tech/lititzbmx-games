@@ -1,6 +1,6 @@
 {
   "package": "Lititz BMX Digital Escape Rooms",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "edition": "Visual Evidence Edition",
   "rooms": [
     {
@@ -64,6 +64,7 @@
     "equal-height action-aligned collection cards",
     "readable profile evidence cards",
     "reduced-motion support",
-    "explicit collection-to-Games-hub navigation"
+    "explicit collection-to-Games-hub navigation",
+    "full evidence-title-to-visual alignment audit"
   ]
 }

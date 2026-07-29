@@ -1,4 +1,4 @@
-# Correction Ledger — v1.5.2
+# Correction Ledger — v1.5.3
 
 ## Preserved approvals
 
@@ -25,3 +25,12 @@
 15. Final reveals and the 404 page provide explicit recovery paths.
 16. Navigation uses explicit `index.html` destinations for local Windows and GitHub Pages compatibility.
 17. v1.5.1 saved progress remains intact because the storage namespace is unchanged.
+
+## Evidence alignment correction
+
+18. A full title-to-visual scan covered all 28 evidence files across all six rooms.
+19. SC-02 was the only clear evidence-title-to-image mismatch found.
+20. SC-02 now uses the authentic Vin Rock profile visual already preserved in the package.
+21. SC-02 alt text, caption, and limitation distinguish Vin Rock’s Sugar Cayne media record from the separate Lititz BMX Huffy build.
+22. The Huffy publication image remains assigned only to publication and full-circle evidence where it directly supports the claim.
+23. No tasks, answers, saved progress, navigation, or other approved evidence assignments changed.
