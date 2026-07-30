@@ -16,6 +16,18 @@ The collection turns BMX history, archival research, oral-history material, arti
 
 Each game is designed as its own preserved project with a stable public address, supporting documentation, source material, rights information, and room for future revision without disturbing other releases.
 
+## Collection Preservation Record
+
+The Lititz BMX Games hub is preserved as a collection-level record documenting the relationship between its independently preserved projects without duplicating their software payloads.
+
+- **Scope:** Two preserved projects and seven playable experiences
+- **Release:** v1.1.1 — initial public collection release
+
+[View the permanent collection release](https://github.com/Article134-tech/lititzbmx-games/releases/tag/games-collection-v1.1.1)
+
+- **Preserved version DOI:** [10.5281/zenodo.21704985](https://doi.org/10.5281/zenodo.21704985)
+- **All-versions DOI:** [10.5281/zenodo.21704984](https://doi.org/10.5281/zenodo.21704984)
+
 ## Now Playing
 
 ### Lititz BMX Digital Escape Rooms
@@ -74,3 +86,4 @@ lititzbmx-games/
 ├── assets/             Shared collection assets and Lititz BMX branding
 ├── brandon/            Warwick Township pump-track planning game
 └── escape-rooms/       Six-room visual-evidence collection
+```
