@@ -47,9 +47,12 @@ Players build a coalition, evaluate land, choose a surface, plan accessibility a
 - **Format:** Nine-stage planning game
 - **Estimated time:** 10–15 minutes
 - **Outcome:** Personalized community proposal
-- **Release:** v1.1.1
+- **Release:** v1.1.1 — locked public release
 
-[Start the project](https://article134-tech.github.io/lititzbmx-games/brandon/)
+[Start the project](https://article134-tech.github.io/lititzbmx-games/brandon/) · [View the permanent v1.1.1 release](https://github.com/Article134-tech/lititzbmx-games/releases/tag/brandon-v1.1.1)
+
+- **Preserved version DOI:** [10.5281/zenodo.21695833](https://doi.org/10.5281/zenodo.21695833)
+- **All-versions DOI:** [10.5281/zenodo.21695832](https://doi.org/10.5281/zenodo.21695832)
 
 ## Why These Games Exist
 
@@ -71,4 +74,3 @@ lititzbmx-games/
 ├── assets/             Shared collection assets and Lititz BMX branding
 ├── brandon/            Warwick Township pump-track planning game
 └── escape-rooms/       Six-room visual-evidence collection
-```
